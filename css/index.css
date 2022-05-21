@@ -229,10 +229,7 @@ textarea {
 
 
 @media screen and (max-width: 480px) {
-        body {
-            display:grid;
-            grid-template-rows: auto 1fr auto;
-        }
+
         .main_index {
             display: flex;
             flex-direction: column;
@@ -248,6 +245,29 @@ textarea {
 
         .main_index p {
             text-align: justify;
+        }
+
+        .main_nosotros {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .main_nosotros h1 {
+            align-self: center;
+            justify-self: center;
+            margin: 0px;
+            margin-top: 10px;
+            width: 90%;
+        }
+
+        .main_nosotros article {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .main_nosotros p {
+            text-align: justify;
+            font-size: 20px;
         }
 
         footer {
