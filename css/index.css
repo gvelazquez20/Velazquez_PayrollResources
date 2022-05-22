@@ -182,8 +182,6 @@ form {
 .contacto_section {
     display: flex;
     flex-direction: column;
-    padding: 5px;
-    margin: 15px;
     width: 100%;
     justify-content: space-between;
 }
@@ -226,7 +224,7 @@ textarea {
     justify-content: center;
 }
 
-
+/* Resposive */
 
 @media screen and (max-width: 480px) {
 
@@ -268,6 +266,38 @@ textarea {
         .main_nosotros p {
             text-align: justify;
             font-size: 20px;
+        }
+
+        .main_servicios {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; 
+        }
+
+        .main_servicios h1 {
+            align-self: center;
+            justify-self: center;
+            margin: 0px;
+            margin-top: 10px;
+            width: 90%;
+        }
+
+        .main_contacto {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .contacto_formulario {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .contacto_section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
         }
 
         footer {
