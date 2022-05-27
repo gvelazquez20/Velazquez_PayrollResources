@@ -44,6 +44,11 @@ h1 {
     background-color: #093A3E;
     text-align: center;
     padding: 5px;
+    font-size: 30px;
+    transition:all 1s linear
+}
+
+h1:hover{
     font-size: 35px;
 }
 
@@ -54,6 +59,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;  
+    background-image: -o-linear-gradient(#174A4A, #63c0c0, #174A4A);
 
 }
 
@@ -89,6 +95,11 @@ nav {
     font-size: 20px;
 }
 
+.itemNav :hover {
+    background-color: #35bbbb;
+    transition: all 1s linear;
+}
+
 .main_index {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -112,6 +123,26 @@ nav {
     align-items: right;
     margin-left: 35px;
     padding-bottom: 25px;
+}
+
+.main_img {
+    transition: all 1s linear;
+}
+
+.main_img:hover{
+    width: 99%;
+    height: 99%;
+    transition: all 3s linear;
+}
+
+.nosotros_main_img{
+    opacity: 0.5;
+    transition: all 1.5s;
+}
+
+.nosotros_main_img:hover{
+    opacity: 1;
+
 }
 
 .main_servicios {
@@ -164,6 +195,14 @@ h2 {
     padding: 15px;
     margin: 15px;
     width: 250px;
+    transition:all 1s linear;
+}
+
+.clientes_list li:hover {
+    background-color: #8ee7ee;
+    padding: 15px;
+    margin: 15px;
+    width: 265px;
 }
 
 .clientes_p {
@@ -172,6 +211,8 @@ h2 {
     padding: 5px;
     font-size: 25px;
 }
+
+
 
 /* Estilos Contacto */
 
@@ -223,6 +264,7 @@ textarea {
     flex-direction: row;
     justify-content: center;
 }
+
 
 /* Resposive */
 
