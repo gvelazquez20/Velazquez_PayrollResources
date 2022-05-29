@@ -13,13 +13,15 @@ body {
     display:grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif ;
 }
 
-header {
+ 
+/* header {
    background-color: #093A3E;
    padding-bottom: 2px;
    display: block;
-}
+} */
 
 article {
     display: flex;
@@ -45,6 +47,7 @@ h1 {
     text-align: center;
     padding: 5px;
     font-size: 30px;
+    font-weight: bold;
     transition:all 1s linear
 }
 
@@ -84,7 +87,21 @@ a {
     text-decoration: none   ;
 }
 
-nav {
+
+.navbar_background {
+    background-color: #093A3E;
+}
+
+.navbar-collapse {
+    justify-content: right;
+}
+
+.nav-item .nav-link.active {
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+
+/* nav {
     text-align: right;
 }
 
@@ -98,7 +115,7 @@ nav {
 .itemNav :hover {
     background-color: #35bbbb;
     transition: all 1s linear;
-}
+} */
 
 .main_index {
     display: grid;
@@ -150,7 +167,7 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     gap: 20px;
-}
+} 
 
 .main_servicios h1 {
     grid-column: 1/4;
