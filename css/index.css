@@ -6,6 +6,9 @@
     padding: 0;
 }
 
+html {
+    font-size: 62.5%;
+}
 
 body {
     color: #ffffff;
@@ -17,7 +20,7 @@ body {
 
 header {
    background-color: #093A3E;
-   padding-bottom: 2px;
+   padding-bottom: 0.2em;
    display: block;
 }
 
@@ -28,28 +31,28 @@ article {
 
 article img {
     display: block;
-    padding: 20px;
+    padding: 2em;
     width: 438px;
     height: 290px;
 }
 
 article p {
     display: block;
-    padding: 20px;
-    font-size: 30px;
+    padding: 2em;
+    font-size: 3rem;
 }
 
 h1 {
-    margin: 20px;
+    margin: 1em;
     background-color: #093A3E;
     text-align: center;
-    padding: 5px;
-    font-size: 30px;
+    padding: 0.5em;
+    font-size: 3rem;
     transition:all 1s linear
 }
 
-h1:hover{
-    font-size: 35px;
+h1:hover {
+    font-size: 3.5rem;
 }
 
 /* Estilos Footer */
@@ -58,25 +61,25 @@ footer {
     background-color: #174A4A;
     display: flex;
     justify-content: space-between;
-    padding-top: 10px;  
+    padding-top: 1em;  
     background-image: -o-linear-gradient(#174A4A, #63c0c0, #174A4A);
 
 }
 
 footer section {
     display: block;
-    padding-bottom: 20px;
+    padding-bottom: 2em;
     }
 
 footer section ul {
     list-style-type: none; 
-    padding-right: 10px;
+    padding-right: 1em;
 }
 
 footer section img {
     width: 376;
     height: 100; 
-    padding-left: 10px;
+    padding-left: 1em;
 }
 
 a {
@@ -91,20 +94,21 @@ nav {
 .itemNav {
     color: #ffffff;
     display: inline;
-    margin: 5px;
-    font-size: 20px;
+    margin: 0.5em;
+    font-size: 2rem;
+    transition:all 0.5s linear;
 }
 
-.itemNav :hover {
+.itemNav:hover {
     background-color: #35bbbb;
-    transition: all 1s linear;
+    color: #093A3E ;
 }
 
 .main_index {
     display: grid;
     grid-template-columns: 1fr 2fr;
     grid-template-rows: auto auto;
-    gap: 20px;
+    gap: 2em;
     justify-content: center;
     align-items: center;
 }
@@ -121,26 +125,26 @@ nav {
 
 .main_index img {
     align-items: right;
-    margin-left: 35px;
-    padding-bottom: 25px;
+    margin-left: 3.5em;
+    padding-bottom: 2.5em;
 }
 
 .main_img {
     transition: all 1s linear;
 }
 
-.main_img:hover{
+.main_img:hover {
     width: 99%;
     height: 99%;
     transition: all 3s linear;
 }
 
-.nosotros_main_img{
+.nosotros_main_img {
     opacity: 0.5;
     transition: all 1.5s;
 }
 
-.nosotros_main_img:hover{
+.nosotros_main_img:hover {
     opacity: 1;
 
 }
@@ -149,16 +153,19 @@ nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
-    gap: 20px;
+    gap: 1em;
+    align-items: flex-start;
 }
 
 .main_servicios h1 {
     grid-column: 1/4;
     align-self: flex-start;
+    
 }
 
 .main_servicios p {
-    font-size: 25px;
+    font-size: 2.5rem;
+    padding: 1em;
 }
 
 .main_servicios article {
@@ -168,11 +175,11 @@ nav {
 
 
 h2 {
-    margin: 10px;
+    margin: 1em;
     background-color: #6BBCC2;
     text-align: center;
-    padding: 15px;
-    font-size: 25px;
+    padding: 1.5em;
+    font-size: 2.5rem;
  }
 
  /* Estilos Clientes */
@@ -182,34 +189,32 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 10px;
+    margin: 1em;
     text-align: center;
-    padding: 5px;
-    font-size: 20px;
+    padding: 0.5em;
+    font-size: 2rem;
     list-style-type: none
  }
  
 
 .clientes_list li {
     background-color: #6BBCC2;
-    padding: 15px;
-    margin: 15px;
-    width: 250px;
-    transition:all 1s linear;
+    padding: 1.5em;
+    margin: 1.5em;
+    width: 2.5em;
+    transition:all 0.5s linear;
 }
 
 .clientes_list li:hover {
     background-color: #8ee7ee;
-    padding: 15px;
-    margin: 15px;
-    width: 265px;
+    color: #093A3E;
 }
 
 .clientes_p {
-    margin: 5px;
+    margin: 0.5em;
     text-align: center;
-    padding: 5px;
-    font-size: 25px;
+    padding: 0.5em;
+    font-size: 2.5rem;
 }
 
 
@@ -230,19 +235,27 @@ form {
 input  {
     background-color: #6BBCC2;
     color: #ffffff;
-    font-size: 15px;
-    margin: 10px;
-    padding: 10px;  
+    font-size: 1.5rem;
+    margin: 1em;
+    padding: 1em;  
     border: 0px;
+}
+
+input:focus {
+    outline-color:#289c6c;
 }
 
 textarea {
     background-color: #6BBCC2;
     color: #ffffff;
-    font-size: 15px;
-    margin: 8px;
-    padding: 10px;
+    font-size: 1rem;
+    margin: 0.8em;
+    padding: 1em;
     border: 0px;
+}
+
+textarea:focus {
+    outline-color: #289c6c;
 }
 
 ::placeholder {
@@ -251,11 +264,11 @@ textarea {
 
 .contacto_enviar {
     display: block;
-    margin: 10px;
+    margin: 1em;
     background-color: #093A3E;
     text-align: center;
-    padding: 5px;
-    font-size: 35px;
+    padding: 0.5em;
+    font-size: 3.5rem;
     width: 95%;
 }
 
@@ -279,7 +292,7 @@ textarea {
             align-self: center;
             justify-self: center;
             margin: 0px;
-            margin-top: 10px;
+            margin-top: 1em;
             width: 90%;
         }
 
@@ -296,7 +309,7 @@ textarea {
             align-self: center;
             justify-self: center;
             margin: 0px;
-            margin-top: 10px;
+            margin-top: 1em;
             width: 90%;
         }
 
@@ -307,7 +320,7 @@ textarea {
 
         .main_nosotros p {
             text-align: justify;
-            font-size: 20px;
+            font-size: 2rem;
         }
 
         .main_servicios {
@@ -320,7 +333,7 @@ textarea {
             align-self: center;
             justify-self: center;
             margin: 0px;
-            margin-top: 10px;
+            margin-top: 1em;
             width: 90%;
         }
 
