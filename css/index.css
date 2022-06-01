@@ -16,13 +16,15 @@ body {
     display:grid;
     grid-template-rows: auto 1fr auto;
     min-height: 100vh;
+    font-family: 'Times New Roman', Times, serif ;
 }
 
-header {
+ 
+/* header {
    background-color: #093A3E;
    padding-bottom: 0.2em;
    display: block;
-}
+} */
 
 article {
     display: flex;
@@ -85,6 +87,20 @@ footer section img {
 a {
     color: #ffffff;
     text-decoration: none   ;
+}
+
+
+.navbar_background {
+    background-color: #093A3E;
+}
+
+.navbar-collapse {
+    justify-content: right;
+}
+
+.nav-item .nav-link.active {
+    color: #ffffff;
+    font-size: 1.4rem;
 }
 
 nav {
