@@ -19,13 +19,6 @@ body {
     font-family: 'Times New Roman', Times, serif ;
 }
 
- 
-/* header {
-   background-color: #093A3E;
-   padding-bottom: 0.2em;
-   display: block;
-} */
-
 article {
     display: flex;
     justify-content: space-around;
@@ -40,8 +33,8 @@ article img {
 
 article p {
     display: block;
-    padding: 2em;
-    font-size: 3rem;
+    padding: 1em;
+    font-size: 2rem;
 }
 
 h1 {
@@ -54,7 +47,7 @@ h1 {
 }
 
 h1:hover {
-    font-size: 3.5rem;
+    font-size: 3rem;
 }
 
 /* Estilos Footer */
@@ -98,26 +91,33 @@ a {
     justify-content: right;
 }
 
+
 .nav-item .nav-link.active {
     color: #ffffff;
-    font-size: 1.4rem;
+    font-size: 2rem;
+    transition: all 0.4s linear;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #35bbbb;
+    color: #093A3E;
 }
 
 nav {
     text-align: right;
 }
 
-.itemNav {
+/* .itemNav {
     color: #ffffff;
     display: inline;
     margin: 0.5em;
     font-size: 2rem;
-    transition:all 0.5s linear;
-}
+    transition: all 0.5s linear;
+} */
 
 .itemNav:hover {
     background-color: #35bbbb;
-    color: #093A3E ;
+    color: #093A3E;
 }
 
 .main_index {
@@ -135,7 +135,7 @@ nav {
 
 .main_index p {
     align-self:flex-start;
-    font-size: 2rem;
+    font-size: 2.5rem;
     padding: 1em;
 }
 
@@ -180,7 +180,7 @@ nav {
 }
 
 .main_servicios p {
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 1em;
 }
 
@@ -195,7 +195,7 @@ h2 {
     background-color: #6BBCC2;
     text-align: center;
     padding: 1.5em;
-    font-size: 2.5rem;
+    font-size: 2rem;
  }
 
  /* Estilos Clientes */
@@ -215,8 +215,8 @@ h2 {
 
 .clientes_list li {
     background-color: #6BBCC2;
-    padding: 1.5em;
-    margin: 1.5em;
+    padding: 0.5em;
+    margin: 0.5em;
     width: 250px;
     transition:all 0.5s linear;
 }
@@ -227,10 +227,10 @@ h2 {
 }
 
 .clientes_p {
-    margin: 0.5em;
+    margin: 0.3em;
     text-align: center;
-    padding: 0.5em;
-    font-size: 2.5rem;
+    padding: 0.3em;
+    font-size: 2rem;
 }
 
 
@@ -245,7 +245,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 input  {
@@ -253,8 +253,8 @@ input  {
     color: #ffffff;
     font-size: 1.6rem;
     margin: 1em;
-    padding: 1em;  
-    border: 0px;
+    padding: 0.5em;  
+    border: 1em;
 }
 
 input:focus {
@@ -265,10 +265,9 @@ textarea {
     background-color: #6BBCC2;
     color: #ffffff;
     font-size: 1.6rem;
-    margin: 0.8em;
-    padding: 1em;
+    margin: 1em;
+    padding: 0em;
     border: 0px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 textarea:focus {
@@ -284,8 +283,8 @@ textarea:focus {
     margin: 0.5em;
     background-color: #093A3E;
     text-align: center;
-    padding: 0.5em;
-    font-size: 2.5rem;
+    padding: 0em;
+    font-size: 2rem;
     width: 95%;
 }
 
@@ -298,7 +297,7 @@ textarea:focus {
 
 /* Resposive */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
 
         .main_index {
             display: flex;
