@@ -1,0 +1,35 @@
+// Estilos Clientes
+
+ .clientes_list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1em;
+    text-align: center;
+    padding: 0.5em;
+    font-size: 2rem;
+    list-style-type: none;
+
+    li {
+        background-color: $secondary-color;
+        padding: 0.5em;
+        margin: 0.5em;
+        width: 250px;
+        transition:all 0.5s linear;
+
+        &:hover {
+            background-color: $color-hover;
+            color: $primary-color;
+        }
+    }
+
+ }
+ 
+
+ .clientes_p {
+    margin: 0.3em;
+    text-align: center;
+    padding: 0.3em;
+    font-size: 2rem;
+}

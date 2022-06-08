@@ -1,0 +1,44 @@
+footer {
+    background-color: #174A4A;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1em;  
+    background-image: -o-linear-gradient(#174A4A, #63c0c0, #174A4A);
+    font-size: 1.4rem;
+}
+
+footer {
+    section {
+        display: block;
+    }
+}
+
+footer {
+    section {
+        ul {
+            list-style-type: none; 
+            padding-right: 1em;
+        }
+    }
+}
+
+footer {
+    section {
+        img {
+            width: 376;
+            height: 100; 
+            padding-left: 1em;
+        }
+    }
+}
+
+.footer_p {
+    margin: auto;
+    padding-left: 2em;
+    padding-top: 1em;
+}
+
+.img_redes_sociales {
+    width: 40px;
+    height: 40px;
+}

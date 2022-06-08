@@ -1,0 +1,38 @@
+
+a {
+    color: #ffffff;
+    text-decoration: none   ;
+}
+
+
+.navbar_background {
+    background-color: $primary-color;
+}
+
+.navbar-collapse {
+    justify-content: right;
+}
+
+
+.nav-item {
+    .nav-link.active {
+        color: #ffffff;
+        font-size: 2rem;
+        transition: all 0.4s linear;
+    }
+
+    .nav-link:hover {
+        background-color: #35bbbb;
+        color: $primary-color;
+    }
+}
+
+
+nav {
+    text-align: right;
+}
+
+.itemNav:hover {
+    background-color: #35bbbb;
+    color: $primary-color;
+}

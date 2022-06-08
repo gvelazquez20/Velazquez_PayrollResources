@@ -1,0 +1,29 @@
+/* Variables */
+@import "misc/variables.scss";
+
+/* Normalize */
+@import "misc/normalize.scss";
+
+/* Header */
+@import "partials/header.scss";
+
+/* Main */
+@import "partials/main.scss";
+
+/* Nosotros */
+@import "pages/nosotros.scss";
+
+/* Servicios */
+@import "pages/servicios.scss";
+
+/* Clientes */
+@import "pages/clientes.scss";
+
+/* Contacto */
+@import "pages/contacto.scss";
+
+/* Footer */
+@import "partials/footer.scss";
+
+/* Responsive */
+@import "misc/mediaqueries.scss";

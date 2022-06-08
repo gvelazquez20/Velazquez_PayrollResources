@@ -1,0 +1,103 @@
+/* Resposive */
+
+@media screen and (max-width: 768px) {
+
+    .main_index {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .main_index {
+        h1 {
+            align-self: center;
+            justify-self: center;
+            margin: 0px;
+            margin-top: 1em;
+            width: 90%;
+        }
+
+        p {
+            text-align: justify;
+        }
+    }
+
+
+    .main_nosotros {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1 {
+            align-self: center;
+            justify-self: center;
+            margin: 0px;
+            margin-top: 1em;
+            width: 90%;
+        }
+
+        article {
+            display: flex;
+            flex-direction: column;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 2rem;
+        }
+    }
+
+
+    .main_servicios {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        h1 {
+            align-self: center;
+            justify-self: center;
+            margin: 0px;
+            margin-top: 1em;
+            width: 90%;
+        }
+    }
+
+
+    .main_contacto {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacto_formulario {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacto_section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            p {
+                text-align: center;
+            }
+
+            ul {
+                text-align: center;
+            }
+        }
+    }
+
+}

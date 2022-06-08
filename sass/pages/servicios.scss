@@ -1,0 +1,35 @@
+
+.main_servicios {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 1em;
+    align-items: flex-start;
+}
+
+.main_servicios {
+    h1 {
+        grid-column: 1/4;
+        align-self: flex-start;
+    }
+}
+
+.main_servicios {
+    p {
+        font-size: 2rem;
+        padding: 1em;
+    }
+}
+
+.main_servicios {
+    article {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.h2_servicios:hover{
+    background-color: $color-hover;
+    color: $primary-color;
+ }
