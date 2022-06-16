@@ -119,18 +119,15 @@ nav {
   grid-template-rows: auto auto;
   gap: 1em;
   align-items: flex-start; }
-
-.main_servicios h1 {
-  grid-column: 1/4;
-  align-self: flex-start; }
-
-.main_servicios p {
-  font-size: 2rem;
-  padding: 1em; }
-
-.main_servicios article {
-  display: flex;
-  flex-direction: column; }
+  .main_servicios h1 {
+    grid-column: 1/4;
+    align-self: flex-start; }
+  .main_servicios p {
+    font-size: 2rem;
+    padding: 1em; }
+  .main_servicios article {
+    display: flex;
+    flex-direction: column; }
 
 .h2_servicios:hover {
   background-color: #8ee7ee;
@@ -169,12 +166,6 @@ form {
   display: flex;
   flex-direction: column; }
 
-.contacto_section {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  justify-content: center; }
-
 input {
   background-color: #6BBCC2;
   color: #ffffff;
@@ -207,10 +198,14 @@ textarea {
   font-size: 2rem;
   width: 95%; }
 
-.contacto_formulario {
+.contacto_formulario, .contacto_section {
   display: flex;
   flex-direction: row;
   justify-content: center; }
+
+.contacto_section {
+  flex-direction: column;
+  width: 100%; }
 
 /* Footer */
 footer {
@@ -287,7 +282,7 @@ footer section img {
     display: flex;
     flex-direction: column;
     justify-content: center; }
-  .contacto_formulario {
+  .contacto_formulario, .contacto_section {
     display: flex;
     flex-direction: column;
     justify-content: center; }

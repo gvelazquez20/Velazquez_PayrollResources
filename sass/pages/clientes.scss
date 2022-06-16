@@ -12,15 +12,14 @@
     list-style-type: none;
 
     li {
-        background-color: $secondary-color;
+        background-color: map-get($colores, secundario);
         padding: 0.5em;
         margin: 0.5em;
         width: 250px;
         transition:all 0.5s linear;
 
         &:hover {
-            background-color: $color-hover;
-            color: $primary-color;
+            @include colorTexto(map-get($colores, primario), map-get($colores, hover));
         }
     }
 

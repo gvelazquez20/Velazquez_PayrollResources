@@ -5,16 +5,10 @@ form {
     flex-direction: column;
 }
 
-.contacto_section {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-}
 
 input  {
-    background-color: $secondary-color;
-    color: #ffffff;
+    @include colorTexto(#ffffff, map-get($colores, secundario));
+
     font-size: 1.6rem;
     margin: 1em;
     padding: 0.5em;  
@@ -27,8 +21,8 @@ input  {
 
 
 textarea {
-    background-color: $secondary-color;
-    color: #ffffff;
+    @include colorTexto(#ffffff, map-get($colores, secundario));
+
     font-size: 1.6rem;
     margin: 1em;
     padding: 0.5em;
@@ -44,18 +38,27 @@ textarea {
     color: #ffffff;
 }
 
+
 .contacto_enviar {
     display: block;
     margin: 0.5em;
-    background-color: $primary-color;
+    background-color: map-get($colores, primario);
     text-align: center;
     padding: 0em;
     font-size: 2rem;
     width: 95%;
 }
 
+
 .contacto_formulario {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+
+.contacto_section {
+    @extend .contacto_formulario;
+    flex-direction: column;
+    width: 100%;
 }

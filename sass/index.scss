@@ -5,10 +5,10 @@
 @import "misc/normalize.scss";
 
 /* Header */
-@import "partials/header.scss";
+@import "partials/_header.scss";
 
 /* Main */
-@import "partials/main.scss";
+@import "partials/_main.scss";
 
 /* Nosotros */
 @import "pages/nosotros.scss";
@@ -23,7 +23,7 @@
 @import "pages/contacto.scss";
 
 /* Footer */
-@import "partials/footer.scss";
+@import "partials/_footer.scss";
 
 /* Responsive */
 @import "misc/mediaqueries.scss";

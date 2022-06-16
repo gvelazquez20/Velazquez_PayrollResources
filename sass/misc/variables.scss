@@ -1,3 +1,11 @@
-$primary-color: #093A3E;
-$secondary-color: #6BBCC2;
-$color-hover: #8ee7ee;
+$colores: (
+primario: #093A3E,
+secundario: #6BBCC2,
+hover: #8ee7ee
+);
+
+
+@mixin colorTexto($principal, $fondo) {
+    background-color: $fondo;
+    color: $principal;
+}
