@@ -18,6 +18,15 @@ footer {
         ul {
             list-style-type: none; 
             padding-right: 1em;
+            li {
+                a {            
+                    &:hover {
+                    text-decoration: none;
+                    color: #ffffff; 
+                }
+            }
+
+            }
         }
     }
 }

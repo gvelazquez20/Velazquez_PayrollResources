@@ -34,10 +34,7 @@ h1 {
   background-color: #093A3E;
   text-align: center;
   padding: 0.5em;
-  font-size: 2.5rem;
-  transition: all 1s linear; }
-  h1:hover {
-    font-size: 3rem; }
+  font-size: 2.5rem; }
 
 h2 {
   margin: 1em;
@@ -96,14 +93,6 @@ nav {
   align-items: right;
   margin-left: 3.5em;
   padding-bottom: 2.5em; }
-
-.main_img {
-  transition: all 1s linear; }
-
-.main_img:hover {
-  width: 99%;
-  height: 99%;
-  transition: all 3s linear; }
 
 /* Nosotros */
 .nosotros_main_img {
@@ -222,6 +211,9 @@ footer section {
 footer section ul {
   list-style-type: none;
   padding-right: 1em; }
+  footer section ul li a:hover {
+    text-decoration: none;
+    color: #ffffff; }
 
 footer section img {
   width: 376;
@@ -297,8 +289,11 @@ footer section img {
     footer section {
       display: flex;
       flex-direction: column;
-      justify-content: center; }
+      justify-content: center;
+      align-content: center; }
       footer section p {
         text-align: center; }
       footer section ul {
-        text-align: center; } }
+        text-align: center; }
+      footer section iframe {
+        display: none; } }
